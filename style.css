@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+body{
+	background-color: #29303D;
+}
+h1{
+	color: #A63C06;
+	font-family: verdana, sans-serif;
+	text-align: center;
+}
+h2 {
+	color: #CAFE48;
+	font-family: verdana, sans-serif;
+	text-align: center;
+}
+p, a {
+	color: #B0B5B3;
+	font-family: arial, sans-serif;
+	text-align: center;
+}
+a {
+	font-weight: bold;
+}
