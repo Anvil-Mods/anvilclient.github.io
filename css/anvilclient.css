@@ -7,16 +7,65 @@ h1{
 	font-family: verdana, sans-serif;
 	text-align: center;
 }
+
+ul.header {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #394356;
+}
+
+ul.header li {
+  float: left;
+}
+
+ul.header li a {
+  display: inline-block;
+  color: #C04507;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.header li a:hover {
+  background-color: #111;
+}
+
+.content-wrap {
+    padding: initial;
+    background: initial;
+    box-shadow: initial;
+    border-radius: initial;
+    margin: auto;
+    box-sizing: border-box;
+    max-width: 75%;
+    min-width: 400px;
+    min-height: 700px;
+}
+
+.content{
+	border-radius: 5ex;
+	background-color: #FF9609;
+	margin: auto;
+}
+
 h2 {
 	color: #CAFE48;
 	font-family: verdana, sans-serif;
 	text-align: center;
 }
 p, a {
-	color: #B0B5B3;
+	color: #29303D;
 	font-family: arial, sans-serif;
 	text-align: center;
 }
 a {
 	font-weight: bold;
+}
+
+.discord-widget {
+	width: 350px;
+	height: 500px;
+	border: none;
+	display: block;
+	margin: auto;
 }
