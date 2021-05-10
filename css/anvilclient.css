@@ -1,48 +1,62 @@
 @charset "ISO-8859-1";
-body{
+
+body {
 	background-color: #29303D;
 }
-h1{
+
+h1 {
 	color: #A63C06;
 	font-family: verdana, sans-serif;
 	text-align: center;
 }
 
-ul.header {
-  list-style-type: none;
-  overflow: hidden;
-  background-color: #394356;
+div.header ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #394356;
 }
 
-ul.header li {
-  float: left;
+div.header ul li {
+	float: left;
 }
 
-ul.header li a {
-  display: inline-block;
-  color: #C04507;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+div.header ul li a img {
+	width: 2.5em;
+	height: 2.5em;
 }
 
-ul.header li a:hover {
-  background-color: #111;
+div.header ul li a.image {
+	padding: 0.25em 16px;
+	width: 2.5em;
+	height: 2.5em;
+}
+
+div.header ul li a {
+	font-size: 25px;
+	display: inline-block;
+	color: #C04507;
+	text-align: center;
+	padding: 1em 16px;
+	text-decoration: none;
+}
+
+div.header ul li a:hover {
+	background-color: #111;
 }
 
 .content-wrap {
-    padding: initial;
-    background: initial;
-    box-shadow: initial;
-    border-radius: initial;
-    margin: auto;
-    box-sizing: border-box;
-    max-width: 75%;
-    min-width: 400px;
-    min-height: 700px;
+	padding: initial;
+	background: initial;
+	box-shadow: initial;
+	border-radius: initial;
+	margin: auto;
+	box-sizing: border-box;
+	max-width: 75%;
+	min-width: 400px;
+	min-height: 700px;
 }
 
-.content{
+.content {
 	border-radius: 5ex;
 	background-color: #FF9609;
 	margin: auto;
@@ -53,11 +67,13 @@ h2 {
 	font-family: verdana, sans-serif;
 	text-align: center;
 }
+
 p, a {
 	color: #29303D;
 	font-family: arial, sans-serif;
 	text-align: center;
 }
+
 a {
 	font-weight: bold;
 }
