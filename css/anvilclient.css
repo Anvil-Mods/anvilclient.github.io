@@ -76,6 +76,7 @@ p, a {
 
 a {
 	font-weight: bold;
+	text-decoration: none;
 }
 
 .discord-widget {
