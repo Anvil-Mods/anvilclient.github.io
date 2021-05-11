@@ -23,7 +23,6 @@ function getAssetNameAndURL(data) {
 fetch("https://api.github.com/repos/Anvilclient/Anvilclient/releases").then(function(response) {
 	return response.json();
 }).then(function(data) {
-	console.log(data);
 	for (var release of data) {
 		var nameAndURL = getAssetNameAndURL(release);
 		printLink(nameAndURL[1], nameAndURL[0]);
