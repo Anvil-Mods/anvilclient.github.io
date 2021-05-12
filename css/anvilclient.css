@@ -57,6 +57,7 @@ div.header ul li a.image {
 }
 
 div.header ul li a {
+	max-width: 100%;
 	font-size: 25px;
 	display: inline-block;
 	color: #C04507;
