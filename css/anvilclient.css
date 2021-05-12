@@ -46,6 +46,7 @@ div.header ul li {
 }
 
 div.header ul li a img {
+	border-radius: 10%;
 	width: 2.5em;
 	height: 2.5em;
 }
