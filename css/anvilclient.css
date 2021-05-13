@@ -67,6 +67,10 @@ div.header ul li a {
 	text-decoration: none;
 }
 
+div.footer p {
+	color: #12161C;
+}
+
 div.header ul li a:hover {
 	background-color: #111;
 }
@@ -86,7 +90,6 @@ div.content-wrap {
 	box-sizing: border-box;
 	max-width: 75%;
 	min-width: 400px;
-	min-height: 700px;
 }
 
 div.content {
