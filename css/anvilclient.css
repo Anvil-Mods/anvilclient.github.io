@@ -35,6 +35,23 @@ img {
 	max-height: 100%;
 }
 
+img.feature {
+	width: 75%;
+	margin: 0 auto;
+	display: block;
+}
+
+img.pixelated {
+  -ms-interpolation-mode: nearest-neighbor;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges
+}
+
+img.crisp-edges {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
 div.header ul {
 	list-style-type: none;
 	overflow: hidden;
